@@ -1,0 +1,59 @@
+.indicators-section {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.clinic-details-subtext {
+  color: grey;
+}
+
+.clinics-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.clinic {
+  width: 300px;
+  cursor: pointer;
+}
+
+.clinics-section-container {
+  margin-top: 16px;
+}
+
+.medications-section-container {
+  margin-top: 16px;
+}
+
+.medications-section-container .medication {
+  font-size: 28px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.image-title-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-title-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.image-title-card .card-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  width: 75%;
+  text-align: center;
+  font-size: 64px;
+}
